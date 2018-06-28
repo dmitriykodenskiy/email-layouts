@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var pug = require('gulp-pug');
+var del = require('del');
 
 var browserSync = require('browser-sync');
 var server = browserSync.create();
